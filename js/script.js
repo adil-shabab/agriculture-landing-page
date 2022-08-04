@@ -1,5 +1,5 @@
-menu = document.getElementById('menu')
-menu.addEventListener('click', function(){
-    menu.classList.toggle('fa-bars')
-    menu.classList
-})
+var swiper = new Swiper(".mySwiper", {
+    direction: "horizontal",
+    autoplay : true,
+    delay : 1000
+  });
