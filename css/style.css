@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Benne&family=Noto+Serif&display=swap');html,
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Noto+Serif&display=swapfamily=Caveat&display=swap');
+
+html,
 body {
   position: relative;
   height: 100%;
@@ -74,23 +76,6 @@ body {
 .swiper .icon2{
     top: 200px;
 }
-/* .swiper .icon:hover .icon-text{
-    display: block;
-} */
-/* .swiper .icon-text{
-    position: absolute;
-    z-index: 11;
-    background: white;
-    padding: 5px 20px;
-    border-radius: 15px;
-    border: 1px solid #000;
-    left: 110px;
-    top: 318px;
-    display: none;
-}
-.swiper .icon-text2{
-    top: 268px;
-} */
 .follow-icon{
     position: absolute;
     top: 500px;
@@ -129,6 +114,60 @@ body {
 .span-tag2{
     top: 450px;
 }
+
+
+
+
+.about{
+    background: url('../img/backround.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    /* margin-top: 100% !important; */
+    margin-top: 700px !important;
+    padding-bottom: 100px;
+    padding-top: 100px !important;
+}
+.para{
+    font-family: 'Caveat', cursive;
+    text-align: justify;
+}
+.right-section .agri{
+    font-family: sans-serif;
+}
+.button-text{
+    position: absolute;
+    top: 373px;
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+    left: 100px;
+}
+.image1{
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 32%;
+    border-radius: 20px;
+    border: 3px solid green;
+    padding: 10px;
+}
+.image2{
+    border: 3px solid green;
+    padding: 10px;
+    top: 8%;
+    width: 50%;
+    position: absolute;
+    left: 15%;
+    border-radius: 20px;
+}
+@media (max-width:992px) {
+    
+}
+
+
+
 
 
 .stroke{
@@ -183,9 +222,4 @@ nav ul li a i:hover {
     rgba(194, 199, 192, 0.22) 0px 15px 12px;
   color: green !important;
 }
-/* hr{
-    width: 80%;
-    background: green;
-    margin-top: 0px !important;
-    position: fixed;
-} */
+
