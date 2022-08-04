@@ -1,4 +1,4 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Noto+Serif&display=swap');html,
 body {
   position: relative;
   height: 100%;
@@ -53,6 +53,92 @@ body {
 .swiper-wrapper{
   position: relative;
 }
+.swiper .icon{
+    left: 50px;
+    color: black;
+    z-index: 11;
+    top: 150px;
+    position: absolute;
+    /* background: #000; */
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.8s;
+    margin-top: 15px;
+}
+.swiper .icon:hover{
+    background: black;
+    color: white;
+}
+.swiper .icon2{
+    top: 200px;
+}
+/* .swiper .icon:hover .icon-text{
+    display: block;
+} */
+/* .swiper .icon-text{
+    position: absolute;
+    z-index: 11;
+    background: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    left: 110px;
+    top: 318px;
+    display: none;
+}
+.swiper .icon-text2{
+    top: 268px;
+} */
+.follow-icon{
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    z-index: 11;
+    border: 1px solid black;
+    background: #000;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.twitter{
+    top: 600px;
+}
+.facebook{
+    top: 550px;
+}
+/* .overlay-bg::after{
+    content: "";
+    background: rgba(1, 1, 1, 0.593);
+    z-index: 11;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+} */
+.span-tag1,
+.span-tag2{
+    position: absolute;
+    top: 470px;
+    z-index: 11;
+    font-weight: bolder;
+    right: 65px;
+}
+.span-tag2{
+    top: 450px;
+}
+
+
+.stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: transparent;
+    font-family: 'Finlandica', sans-serif;
+  }
+
+
 
 .logo {
   width: 120px;
@@ -74,7 +160,7 @@ nav ul li a:hover {
   border-bottom: 3px solid green;
 }
 .nav-link {
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 nav ul li a i {
   background: green;
