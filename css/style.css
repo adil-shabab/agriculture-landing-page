@@ -4,6 +4,7 @@ html,
 body {
   position: relative;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -52,7 +53,7 @@ body {
   object-fit: cover;
   opacity: 0.8;
 }
-.swiper-wrapper{
+.swiper-wrapper1{
   position: relative;
 }
 .swiper .icon{
@@ -225,12 +226,61 @@ body {
   background-size: cover;
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow-x: hidden;
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   height: 65vh;
-  opacity: 0.7;
+  opacity: 0.9;
 }
-.
+.banner > *{
+  z-index: 111;
+  color: white;
+}
+.banner > p{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+}
+.banner h1{
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+}
+.banner button{
+  background: rgb(117, 117, 4);
+  color: white;
+  padding: 10px 25px;
+  transition: 0.9s;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.banner button:hover{
+  color: black !important;
+  background: white;
+}
 
+.product_slide p{
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Caveat', cursive;
+}
+.product_slide .content{
+  border: 1px solid green;
+  border-radius: 15px;
+  height: 370px;
+  padding: 15px !important;
+}
+.product_slide .content h3{
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+.product_slide .under__line{
+  width: 50%;
+  height: 1px solid coral;
+}
 
 .stroke{
     -webkit-text-stroke-width: 1px;

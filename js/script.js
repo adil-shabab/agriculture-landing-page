@@ -28,17 +28,27 @@ image2.addEventListener('mouseleave', function(){
   span2.style.display='none'
 })
 
-// var phone_icon = document.querySelector('.icon2')
-// var phone_text = document.querySelector('.icon-text1')
-
-// var email_icon = document.querySelector('.icon1')
-// var email_text = document.querySelector('.icon-text2')
-
-
-
-// phone_icon.addEventListener('mouseover', function(){
-//     phone_text.classList.toggle('d-block')
-// })
-// email_icon.addEventListener('mouseover', function(){
-//     email_text.classList.toggle('d-block')
-// })
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 3,
+  autoplay: true,
+  loop: true,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3.2,
+      spaceBetween: 50,
+    },
+  }
+});
