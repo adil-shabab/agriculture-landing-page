@@ -223,11 +223,14 @@ body {
   position: relative;
   background: url('../img/banner.jpg') no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   overflow-x: hidden;
-  height: 80vh;
-
+  height: 65vh;
+  opacity: 0.7;
 }
+.
+
 
 .stroke{
     -webkit-text-stroke-width: 1px;
