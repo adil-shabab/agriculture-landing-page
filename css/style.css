@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Benne&family=Noto+Serif&display=swapfamily=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&family=Benne&family=Noto+Serif&display=swapfamily=Caveat&display=swap');
 
 html,
 body {
@@ -163,15 +163,79 @@ body {
     left: 15%;
     border-radius: 20px;
 }
-@media (max-width:992px) {
-    
+.right-section{
+  position: relative;
+}
+.lottie{
+  position: absolute;
+  bottom: 10px;
+  right: 80px;
+}
+/* .video{
+  width: 100% !important;
+  height: 300px;
+  padding: 15px 0px;
+  border-radius: 21px;
+} */
+
+.products .heading{
+  font-size: 32px !important;
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+.products .head{
+  color: green;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px !important;
+}
+.products .left-section .image{
+  width: 100% !important;
+  border-radius: 27px;
+  border-bottom: 3px solid green;
+  border-left: 3px solid green;
+  padding: 15px;
+  height: 300px !important;
+}
+.products .left-section,
+.products .right-section{
+  overflow: hidden;
+  position: relative;
+  transition: 0.8s;
+}
+.products .image:hover{
+  opacity: 0.6;
+}
+.products .products_span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600 !important;
+  color: rgb(0, 0, 0);
+  z-index: 111;
+  font-size: 27px;
+  display: none;
 }
 
+.banner{
+  position: relative;
+  background: url('../img/banner.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+  height: 80vh;
 
-
-
+}
 
 .stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(17, 179, 33);
+    color: transparent;
+    font-family: 'Finlandica', sans-serif;
+  }
+.stroke-black{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     color: transparent;
