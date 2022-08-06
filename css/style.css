@@ -213,15 +213,17 @@ body {
 }
 .products .left-section .image{
   width: 100% !important;
-  border-radius: 27px;
-  border-bottom: 3px solid green;
-  border-left: 3px solid green;
-  padding: 15px;
-  height: 300px !important;
+  border-radius: 17px;
+  /* border-bottom: 3px solid green;
+  border-left: 3px solid green; */
+  padding: 5px;
+  height: 400px !important;
+
 }
 .products .left-section,
 .products .right-section{
   overflow: hidden;
+  padding: 0 !important;
   position: relative;
   text-align: center !important;
   margin-top: 55px !important;
@@ -279,22 +281,48 @@ body {
   background: white;
 }
 
-.product_slide p{
+.product_slide .description{
   text-align: justify;
   font-size: 16px;
+  display: inline-block;
+  font-size: 0.17px !important;
+  margin-right: 500px;
+  transition: 1.5s ease;
+  /* display: none; */
   font-family: 'Caveat', cursive;
+}
+.product_slide .content:hover{
+  height: 370px;
+}
+.product_slide .content:hover .description{
+  font-size: 16px !important;
+  display: block !important;
+  margin: 0 !important;
 }
 .product_slide .content{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   border-radius: 15px;
-  height: 370px;
+  height: 270px;
+  overflow: hidden;
   padding: 15px !important;
+  transition: 1.2s;
 }
 .product_slide .content h3{
   font-size: 19px;
   font-weight: bold;
   font-family: 'Caveat', cursive;
 }
+/* .product_slide .content .description{
+  display: none;
+}
+.product_slide .content:hover .description{
+  display: block !important;
+} */
+
+
+
+
 .product_slide .under__line{
   width: 50%;
   height: 1px solid coral;
@@ -414,7 +442,9 @@ nav ul li a i:hover {
 
 
 
-
+.foooter{
+  margin-top: 120px !important;
+}
 .foooter .icons i{
   font-size: 18px;
   padding: 10px;
@@ -429,3 +459,48 @@ nav ul li a i:hover {
   background: white;
   color: rgb(7, 104, 7);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} */
