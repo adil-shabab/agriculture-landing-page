@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- FontAwesome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -28,9 +29,6 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto text-center">
               <li class="nav-item me-2">
-                <a class="nav-link" aria-current="page" href="">Main</a>
-              </li>
-              <li class="nav-item me-2">
                 <a class="nav-link active" href="">Home</a>
               </li>
               <li class="nav-item me-2">
@@ -42,8 +40,11 @@
               <li class="nav-item me-2">
                 <a class="nav-link" href="#">Gallery</a>
               </li>
-              <li style="margin-left: 50px;" class="nav-item me-2">
-                <a class="contact nav-link" href="#">Contact Us</a>
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li data-aos="fade-down" data-aos-delay="300" data-aos-duration="3000" style="margin-left: 50px;" class="nav-item me-2">
+                <a class="contact nav-link" href="#">Enquiry</a>
               </li>
               <!-- <li class="nav-item me-2">
                 <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i></a>
@@ -72,9 +73,9 @@
           <i class="follow-icon twitter fa-brands fa-twitter"></i>
 
 
-          <!-- <p class="icon-text icon-text1">+91 7510393197</p>
+          <!-- <p data-aos="fade-left" data-aos-duration="2000" class="icon-text icon-text1">+91 7510393197</p>
           <p class="icon-text icon-text2">adilshabab2004@gmail.com</p> -->
-        <div class="swiper-wrapper1">
+        <div class="swiper-wrapper">
           <div class="swiper-slide"><img class="" src="/img/slider 1.jpg" alt=""></div>
           <div class="swiper-slide"><img class="" src="/img/slider 2.jpg" alt=""></div>
           <div class="swiper-slide"><img class="" src="/img/slider 5.jpg" alt=""></div>
@@ -109,6 +110,28 @@
 
 
 
+      <section class="projects services container">
+        <div style="margin-bottom: 110px;" class="content row">
+          <div class="box col-lg-3 col-xlg-3 col-md-4 col-sm-12 col-12">
+            <lottie-player class="lottie-deliver" src="https://assets4.lottiefiles.com/packages/lf20_HBXF2O.json"  background="transparent"  speed="1"  style="width: 180px; height: 180px;"  loop autoplay></lottie-player>
+            <span>We Deliver Anywhere</span>
+          </div>
+          <div class="box col-lg-3 col-xlg-3 col-md-4 col-sm-12 col-12">
+            <lottie-player class="lottie-deliver" src="https://assets7.lottiefiles.com/packages/lf20_fzqgqxxw.json"  background="transparent"  speed="1"  style="width: 180px; height: 180px;"  loop autoplay></lottie-player>            <span>Advanced technologies</span>
+          </div>
+          <div class="box col-lg-3 col-xlg-3 col-md-4 col-sm-12 col-12">
+            <lottie-player class="lottie-deliver" src="https://assets9.lottiefiles.com/packages/lf20_sgn7zslb.json"  background="transparent"  speed="1"  style="width: 180px; height: 180px;"  loop autoplay></lottie-player>
+            <span>Proffesional Farmers</span>
+          </div>
+          <div class="box col-lg-3 col-xlg-3 col-md-4 col-sm-12 col-12">
+            <lottie-player class="lottie-deliver" src="https://assets1.lottiefiles.com/packages/lf20_nzvh8g2c.json"  background="transparent"  speed="1"  style="width: 180px; height: 180px;"  loop autoplay></lottie-player>
+            <span>We use New Technologies</span>
+          </div>
+        </div>
+      </section>
+
+
+
 
       <!-- what we offer section  -->
       <section class="pb-5 products container">
@@ -116,12 +139,12 @@
         <h1 class="text-center heading stroke">PRODUCTS WE OFFER</h1>
         <div class="row mt-2">
           <div class="left-section col-lg-6 col-md-6 col-sm-12 col-12">
-            <img src="/img/image 5.jpg" class="image" id="image1" alt="">
+            <img src="/img/image 5.jpg" class="image mb-3" id="image1" alt="">
             <span class="products_span" id="span1">Agriculture Materials</span>
           </div>
           <div class="left-section m-0 col-lg-6 col-md-6 col-sm-12 col-12">
-            <img src="/img/construction.jpg" class="image" id="image2" alt="">
-            <span class="products_span" id="span2">Agriculture Materials</span>
+            <img src="/img/construction.jpg" class="image mb-3" id="image2" alt="">
+            <span class="products_span" id="span2">Construction Materials</span>
           </div>
         </div>
       </section>
@@ -133,26 +156,26 @@
             <div class="swiper-slide content d-flex justify-content-center align-items-center flex-column">
               <h3>SEEDS</h3>
               <hr class="under__line">
-              <p>We work hard of the to find the best OP and hybrid varieties in the world and introduce them in the market after several trials. We work with both open field and green house varieties.</p>
               <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_ngencarb.json"  background="transparent"  speed="1"  style="width: 120px; height: 120px;"  loop autoplay></lottie-player>
+              <p>We work hard of the to find the best OP and hybrid varieties in the world and introduce them in the market after several trials. We work with both open field and green house varieties.</p>
             </div>
             <div class="swiper-slide content d-flex justify-content-center align-items-center flex-column">
               <h3>TOOLS & EQUIPMENTS</h3>
               <hr class="under__line">
-              <p>From and Garden hose to the to all kinds of sprayers, we have a wide selection of tools and farmers equipments for the gardening enthusiast to the professional farmer.</p>
               <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_EVx240.json"  background="transparent"  speed="1"  style="width: 120px; height: 120px;"  loop autoplay></lottie-player>
+              <p>From and Garden hose to the to all kinds of sprayers, we have a wide selection of tools and farmers equipments for the gardening enthusiast to the professional farmer.</p>
             </div>
             <div class="swiper-slide content d-flex justify-content-center align-items-center flex-column">
               <h3>FERTILIZERS</h3>
               <hr class="under__line">
-              <p>We work with both local and international fertilizer companies to supply several kinds of fertilizers. This includes water soluble NPK fertilizers, regulators, and trace elements.</p>
               <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_q6j3ipg3.json"  background="transparent"  speed="1"  style="width: 120px; height: 120px;"  loop autoplay></lottie-player>
+              <p>We work with both local and international fertilizer companies to supply several kinds of fertilizers. This includes water soluble NPK fertilizers, regulators, and trace elements.</p>
             </div>
             <div class="swiper-slide content d-flex justify-content-center align-items-center flex-column">
               <h3>PESTICIDES</h3>
               <hr class="under__line">
-              <p>We are  working with Several that multinational &universal companies for genuine products including Insecticides, Fungicides, Acaricides, & public health insecticide.</p>
               <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_P5CcfI.json"  background="transparent"  speed="1"  style="width: 120px; height: 120px;"  loop autoplay></lottie-player>
+              <p>We are  working with Several that multinational &universal companies for genuine products including Insecticides, Fungicides, Acaricides, & public health insecticide.</p>
             </div>
           </div>
         </div>
@@ -161,8 +184,8 @@
 
 
       <!-- banner section  -->
-      <section class="mt-5 banner container-fulid">
-        <p class="banner__text">MODER AGRICULTURE TYPES</p>
+      <section class="mt-5 banner container-fulid mb-5">
+        <p class="banner__text">MODERN AGRICULTURE TYPES</p>
         <h1>AGRICULTURE MATTERS TO THE FUTURE OF DEVELOPMEWNT</h1>
         <button class="btn">Learn More</button>
       </section>
@@ -170,8 +193,112 @@
 
 
 
+      <!-- project section  -->
+      <section class="projects container mt-5 pt-5 mb-5">
+        <h3 class="text-center">EXPLORE PROJECTS</h3>
+        <h1 class="stroke text-center">OUR RECENT PROJECTS</h1>
+        <div class="row">
+          <div class="mt-5 col-lg-4 col-md-6 col-sm-12 col-12 box">
+            <img src="/img/project 1.jpg" alt="">
+          </div>
+          <div class="mt-5 col-lg-4 col-md-6 col-sm-12 col-12 box">
+            <img src="img/project 2.jpg" alt="">
+          </div>
+          <div class="mt-5 col-lg-4 col-md-6 col-sm-12 col-12 box">
+            <img src="/img/project 3.jpg" alt="">
+          </div>
+          <div class="mt-5 col-lg-4 col-md-6 col-sm-12 col-12 box">
+            <img src="/img/project 10.jpg" alt="">
+          </div>
+          <div class="mt-5 col-lg-4 col-md-6 col-sm-12 col-12 box">
+            <img src="/img/project 11.jpg" alt="">
+          </div>
+          <div class="mt-5 col-lg-4 col-md-6 col-sm-12 col-12 box">
+            <img src="/img/project 5.jpg" alt="">
+          </div>
+
+        </div>
+      </section>
 
 
+
+
+      <section class="mt-5 foooter container">
+        <div class="row d-flex justify-content-center align-items-center">
+        <div class="mb-3 icons d-flex justify-content-center align-items-center">
+          <i class="mr-3 fa-brands fa-instagram"></i>
+          <i class="mr-3 fa-brands fa-facebook"></i>
+          <i class="mr-3 fa-brands fa-twitter"></i>
+          <i class="mr-3 fa-solid fa-location-dot"></i>
+          <i class="mr-3 fa-solid fa-phone"></i>
+          <i class="mr-3 fa-solid fa-envelope"></i>
+        </div>
+      </section>
+
+
+
+    <!-- <section class="foooter">
+      <div class="row">
+        <div class="footer-content col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <h4>ABOUT</h4>
+            <p>Zahrath Al Daidh Agricultural Materials Company was established. we offered farmers products of the highest quality and offered them his knowledge and expertise in the field of agriculture.</p>
+            <div class="icons d-flex justify-content-center align-items-center">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div class="footer-content col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+          <h4>EXPLORE</h4>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Agricultural Materials</li>
+            <li>Building Materials</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="footer-content col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+          <h4>CONTACT</h4>
+          <div class="d-flex">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Zahrat Al Dhaid Agriculture Materials, Al Dhaid, Sharjah PO Box: 14812</p>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Zahrat Al Dhaid Agriculture Materials, Al Helio 2, Ajman PO Box: 14812</p>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-phone"></i>
+            <ul>
+              <li>Phone  : (+971)  68822262</li>
+              <li>Mobile : (+971)  505044594</li>
+              <li>Fax    : (+971)  68822262</li>
+            </ul>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@asmaasgroup.com</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+      <section class="footer">
+        <span>&#169; 2022 asmaasgroup.com</span>
+      </section>
+
+
+
+
+      <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
     <!-- lottie files cdn  -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <!-- Optional JavaScript -->
