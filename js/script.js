@@ -5,11 +5,12 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
+
 var image1 = document.getElementById('image1')
 var image2 = document.getElementById('image2')
 
-// ScrollReveal().reveal('.image1');
-// ScrollReveal().reveal('.image2');
+
+
 
 var swiper = new Swiper(".mySwiper2", {
   slidesPerView: 3,
@@ -54,6 +55,7 @@ const onScroll = () => {
     navbar.classList.remove("scrolled")
   }
 }
+
 
 // Use the function
 window.addEventListener('scroll', onScroll)
